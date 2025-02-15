@@ -6,7 +6,7 @@ import Footer from './Data/Footer';
 import Header from './Data/header';
 import Projects from './Data/Projects';
 import Resume from './Data/Resume';
-import About from './Images/About';
+import About from './Data/About';
 
 function App() {
   return (
@@ -24,3 +24,5 @@ function App() {
 }
 
 export default App;
+
+

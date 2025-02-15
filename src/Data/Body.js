@@ -1,8 +1,11 @@
-import BodyImg from '../Images/hero.png';
-import { AiOutlineTwitter,AiOutlineFacebook,AiOutlineLinkedin,AiOutlineGithub } from "react-icons/ai";
-export default function Body() {
+import BodyImg from '../Images/man sit.avif';
+import BackroundImg from'../Images/hero.png';
+import { AiOutlineMail,AiOutlineLinkedin,AiOutlineGithub } from "react-icons/ai";
+export default function Body(){
+    
     const config = {
         subtitle: 'Im a FUll-Stack Developer'
+        
     }
     return <section className='flex flex-col md:flex-row px-5 py-32 bg-primary justify-center'>
         <div className='md:w-1/2 flex flex-col'>
@@ -11,16 +14,21 @@ export default function Body() {
         </h1>
 
         <div className='flex py-6'>
-            <a href='#' className='pr-4 hover:text-white'><AiOutlineTwitter size={30}/></a>
-            <a href='#' className='pr-4 hover:text-white'><AiOutlineFacebook size={30}/></a>
-            <a href='#' className='pr-4 hover:text-white'><AiOutlineLinkedin size={30}/></a>
-            <a href='#' className='pr-4 hover:text-white'><AiOutlineGithub size={30}/></a>
+            <a href='http://www.linkedin.com/in/sundar-m85' className='pr-4 hover:text-white'><AiOutlineLinkedin size={30}/></a>
+            <a href='https://github.com/Sundar8508/final-project' className='pr-4 hover:text-white'><AiOutlineGithub size={30}/></a>
+            <a href="sundarm541@gmail.com" className="pr-4 hover:text-white">
+            <AiOutlineMail size={30} />
+            </a>
+
+            
+
+
         </div>
        
         </div>
        
        
-        <img className='md: w-1/3' src={BodyImg}/>
+        <img className='md: w-1/3 '  src={BackroundImg}/>
        
     </section>
 

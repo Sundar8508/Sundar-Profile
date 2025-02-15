@@ -1,6 +1,6 @@
-import websiteimg1 from '../Images/ecommerce-websites.jpg';
-import websiteimg2 from '../Images/ecommerce-websites.jpg';
-import websiteimg3 from '../Images/website-blog.jpg';
+import websiteimg1 from '../Images/coffero.png';
+import websiteimg2 from '../Images/e-commerce.png';
+
 
 
 export default function Projects () {
@@ -8,19 +8,15 @@ const config ={
     projects : [
         {
             Image: websiteimg1,
-            desription: 'A Ecommerce website',
-            link:'https://github.com/Sundar8508',
+            desription: '"coffero" coffee shop website',
+            link:'http://final-project-dsz74b7o1-sundar8508s-projects.vercel.app',
         },
         {
             Image: websiteimg2,
-            desription: 'Food Ecommerce website',
-            link:'',
+            desription: 'Education website',
+            link:'https://lms-knowledgebridge.netlify.app/',
         },
-        {
-            Image: websiteimg3,
-            desription: 'Basic Blogb website',
-            link:'',
-        }
+        
     ]
 }
 
